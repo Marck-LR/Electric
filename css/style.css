@@ -34,7 +34,13 @@
   top:   2%;
   left: 1%;
   border:solid 2px #00aacc;
-  background:#aaeeee;
+  background: 
+-webkit-linear-gradient(
+top left,
+rgba(160,20,100,1)      10%,  
+rgba(120,110,100,9.0)   10%,
+rgba(120,110,100,9.0)   40%,  
+rgba(10,110,120,1)        10%);
   font: 70%  monospace;line-height:10.5pt;
   color:#000000; }
 
