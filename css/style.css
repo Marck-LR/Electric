@@ -1,0 +1,48 @@
+<STYLE>
+.fondo{
+  position: absolute;
+  height:98%  ;
+  width: 98%  ;
+  top:   1%;
+  left: 1%;
+  background:#dddddd;}
+
+.titulo{
+  position: absolute;
+  height:9%  ;
+  width: 97%  ;
+  top:   1%;
+  left: 1%;
+  border:solid 2px #aaaaaa;
+  background:#113366;
+  font: 80%  monospace;line-height:14.5pt;
+  color:#ffff00;}
+
+.hoja{
+  position: absolute;
+  height:87%  ;
+  width: 97%  ;
+  top:   12%;
+  left: 1%;
+  border:solid 2px #aaaaaa;
+  background:#dddddd;}
+
+    .box{
+  position: absolute;
+  height:90%  ;
+  width: 97%  ; 
+  top:   2%;
+  left: 1%;
+  border:solid 2px #00aacc;
+  background:#aaeeee;
+  font: 70%  monospace;line-height:10.5pt;
+  color:#000000; }
+
+
+</STYLE>
+
+
+
+
+
+
