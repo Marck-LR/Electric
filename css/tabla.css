@@ -8,9 +8,11 @@
   border-spacing:0px;
   padding:0px;}
  }
-	.fx caption {
+
+	.demo caption {
 		caption-side:top;
 		text-align:center;}
+
 .demo th {
   width: 0pt;
   text-align:center;
@@ -31,19 +33,21 @@
 </style>
 
 
+
+
 <style>
-        .result_garbix
+   .result_garbix
             {
          border:0px solid #999;
-                width:90%;
-                height:97%;
-  border-left: 0px solid #999;
-background: -webkit-linear-gradient(top, rgba(20,90,120,20) 50%,rgba(10,110,130,50) 100%);
+          width:90%;
+         height:97%;
+    border-left: 0px solid #999;
+     background: -webkit-linear-gradient(top, rgba(20,90,120,20) 50%,rgba(10,110,130,50) 100%);
 /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(100,100,100,250) 0%,rgba(216,216,200,1) 100%);
-  top: 0; bottom: 0;
-  position: relative;
-     }
+     background: -o-linear-gradient(top,  rgba(100,100,100,250) 0%,rgba(216,216,200,1) 100%);
+ top: 0; bottom: 0;
+       position: relative;
+            }
         </style>
 
 
