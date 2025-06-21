@@ -1,4 +1,5 @@
  
+
 [main:]        
     |         
 readadc 1,b1              
@@ -40,5 +41,3 @@ nivel1:
        high 0
        low  4
 goto main
-
-
