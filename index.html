@@ -40,15 +40,68 @@ maximum-scale=1">
 
 <th colspan='2'>
 
+   <textarea name='' 
+            id='' 
+         style='background-color:#000000;
+                   color:#ffffff;
+                  border:solid 3px #443366;
+                        font:70% monospace;
+                 line-height:10.49pt;
+                 font-weight:600;'
+          rows='25' 
+          cols='58' >
 
-<iframe id='noaplica'
-     class='result_garbix'
-width='384'
-height='500'
-     src='./css/text4.txt'
-frameborder='0' allowfullscreen>
- </iframe>
 
+
+
+ [main:]        
+    |         
+readadc 1,b1              
+   ___                      
+  /   \                    
+[ b1> 100]==============]>|     <--- Nivel2
+  \___/                   | 
+    |                     | 
+   ___                    | 
+  /   \                   | 
+[ b1> 50 ]====]>|         |     <--- Nivel1     
+  \___/         |         | 
+    |           |         | 
+    |           |         | 
+ [low 0]    [high 0]   [high 4]  
+    |           |         |      
+ [low 4]     [low 4]    [low 0]  
+    |           |         |
+    ======================= 
+    |      GOTO main      |
+    =======================
+
+
+
+
+
+
+main:
+      readadc 1,b1
+      if b1 > 100 then nivel2
+      if b1 > 50  then nivel1
+     low 0
+     low 4
+  goto main
+
+
+nivel2:
+       high 4
+       low  0
+goto main
+
+
+nivel1:
+       high 0
+       low  4
+goto main
+
+</textarea>
 
 </th>
 
@@ -60,7 +113,7 @@ frameborder='0' allowfullscreen>
     <td>Prog1</td></tr>
 
 
-             <td>select</td>
+             <td>Proyecto</td>
        <td>
 <input type='text' 
        name='parte'
@@ -69,12 +122,12 @@ style='background-color:#004400;
                   color:#aaffff;
                  border:solid 0px #dddddd;' 
 
-value='Alarmas'>
+value='Alarma'>
        </td>
      
 
 
-<tr><td>RESULT</td><td><input type='submit' style='background-color:#ffffAA;color:#000000;'  value='[ DELET ]'></td>
+<tr><td>RESULT</td><td><input type='submit' style='background-color:#ffffAA;color:#000000;'  value='[]'></td>
 </tbody></table>
 
 </div>
